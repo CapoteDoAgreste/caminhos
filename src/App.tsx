@@ -223,7 +223,7 @@ function App() {
                 x2={child.x}
                 y2={child.y}
                 stroke={isHighlighted ? "#ff0000" : "black"}
-                strokeWidth={isHighlighted ? 3 : 1}
+                strokeWidth={3}
                 markerEnd="url(#arrowhead)"
               />
             );
